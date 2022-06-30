@@ -1,0 +1,41 @@
+.nav {
+  padding: 25px;
+  
+}
+.list {
+  display: flex;
+  list-style: none;
+}
+.list__item {
+  position: relative;
+}
+
+.list__item:not(:last-child):not(.dropdown__item) {
+  margin-right: 10px;
+}
+.btn {
+  padding: 0;
+  background: none;
+  cursor: pointer; 
+  border: 0;
+}
+.list__btn {
+}
+.dropdown {
+  position: absolute;
+  padding: 25px;
+}
+.dropdown__wrapper {
+  padding: 25px;
+}
+.dropdown__list {
+  display: flex;
+  flex-direction: column;
+
+  border: 1px solid green;
+}
+
+.dropdown__item {
+  padding: 25px;
+  border: 2px solid red; 
+}
