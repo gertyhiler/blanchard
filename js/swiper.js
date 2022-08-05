@@ -75,13 +75,7 @@ const gallerySwiper = new Swiper ('.gallery-slider', {
       spaceBetween: 50,
     },
 
-    1500: {
-      slidesPerView: 3,
-      slidesPerGroup: 3,
-      spaceBetween: 25,
-    },
-
-    1340: {
+    1140: {
       slidesPerView: 3,
       slidesPerGroup: 3,
       spaceBetween: 25,
@@ -92,6 +86,19 @@ const gallerySwiper = new Swiper ('.gallery-slider', {
       slidesPerGroup: 2,
       spaceBetween: 35,
     },
+
+    925: {
+      slidesPerView: 2,
+      slidesPerGroup: 2,
+      spaceBetween: 20,
+    },
+
+    774: {
+      slidesPerView: 3,
+      slidesPerGroup: 3,
+      spaceBetween: 15,
+    },
+
     768: {
       slidesPerView: 2,
       slidesPerGroup: 2,
@@ -102,10 +109,10 @@ const gallerySwiper = new Swiper ('.gallery-slider', {
       slidesPerGroup: 2,
       spaceBetween: 20,
     },
-    320: {
+    0: {
       slidesPerView: 1,
       slidesPerGroup: 1,
-      spaceBetween: 0,
+      spaceBetween: 30,
     }
   },
 });
